@@ -1,5 +1,3 @@
-import Github from "@/svg/Github";
-import Linkedin from "@/svg/Linkedin";
 import Resume from "@/svg/Resume";
 import Link from "next/link";
 

@@ -54,7 +54,7 @@ export default function Portfolio() {
         const { data } = await res.json();
         setPinnedRepos(data.user.pinnedItems.nodes);
         setLoading(false);
-      } catch (error) {
+      } catch (error: any) {
         console.error("Failed to fetch pinned repositories:", error);
         setError(error.message);
         setLoading(false);
