@@ -1,0 +1,12 @@
+-------------------repos retrieve---------------------------
+  // const data = async () => {
+  //   const result = await fetch("https://api.github.com/users/mhlehri/repos");
+  //   const dataJson = await result.json();
+  //   return dataJson;
+  // };
+  // // console.log(data);
+  // const dataArr = await data();
+  // const d = dataArr?.filter((repo) => repo.topics.includes("featured"));
+  // console.log(d, dataArr);
+-----------------------------------------------
+
